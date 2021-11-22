@@ -6,7 +6,7 @@ import tbi from "../assets/TBI.svg";
 import upscale from '../assets/upscale.svg'
 const Header = () => {
   return (
-      <div className='container-fluid '>
+      <div className='container-fluid ' id="home">
           <div className="logo-container">
               <img className="logo" src={upscale} alt="Upscale'21"/>
           </div>
