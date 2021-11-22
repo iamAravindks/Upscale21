@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Info from "./components/Info";
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
+import Speakers from './components/Speakers';
 
 function App()
 {
@@ -25,6 +26,7 @@ function App()
       />
       <Header headerRef={headerRef} />
       <Info infoRef={infoRef} />
+      <Speakers/>
       <Footer />
     </>
   );

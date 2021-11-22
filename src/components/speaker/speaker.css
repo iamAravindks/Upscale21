@@ -1,0 +1,31 @@
+.speaker-container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.card{
+    background-color: #414141 !important;
+}
+
+.speaker-head{
+      height: 400px;
+    background-color: #414141 !important;
+    background: url(../../assets/Ellipse.svg);
+    background-repeat: no-repeat;
+    width: 405px;
+    background-position-x: 28px;
+    background-position-y: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-body{
+    margin-top: 31px;
+    text-align: center;
+    color: #fff;
+}
+.speaker-img{
+    margin: auto;
+    width: 300px;
+    height: 300px;
+}
