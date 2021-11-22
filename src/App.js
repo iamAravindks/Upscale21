@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import Info from "./components/Info";
 import NavBar from "./components/NavBar";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <NavBar />
       <Header />
       <Info/>
+      <Footer />
       </>
   );
 }
