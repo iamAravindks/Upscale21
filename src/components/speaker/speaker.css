@@ -29,3 +29,18 @@
     width: 300px;
     height: 300px;
 }
+@media only screen and (max-width: 769px) {
+    .speaker-container{
+        flex-direction: column !important;
+    }
+    .speaker-img{
+        width: 200px;
+        height: 200px;
+    }
+    .speaker-head{
+        background-position-x: 82px;
+    background-position-y: 30px;
+    background-size: 214px;
+    height: 295px;
+    }
+}
