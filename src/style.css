@@ -173,9 +173,24 @@
 }
 .info-container{
   padding: 1rem;
-  
   position: relative;
   overflow-x: hidden;
   
+}
+.footer{
+  flex-direction: column;
+}
+.footer >div{
+ margin: auto;
+ width: 200px;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+.social-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 }

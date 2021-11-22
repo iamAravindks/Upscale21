@@ -4,9 +4,9 @@ import pie from "../assets/PIE.svg";
 import sb from "../assets/SB.svg";
 import tbi from "../assets/TBI.svg";
 import upscale from '../assets/upscale.svg'
-const Header = () => {
+const Header = ({headerRef}) => {
   return (
-      <div className='container-fluid ' id="home">
+      <div className='container-fluid ' id="home" ref={headerRef}>
           <div className="logo-container">
               <img className="logo" src={upscale} alt="Upscale'21"/>
           </div>

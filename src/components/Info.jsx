@@ -1,9 +1,9 @@
 import InfoCard from "./info/InfoCard"
 import { data } from "./info/data"
 
-const Info = () => {
+const Info = ({infoRef}) => {
     return (
-      <div className='info-container'>
+      <div className='info-container' ref={infoRef}>
         {data.map((card) => (
           <InfoCard
             key={card.id}
