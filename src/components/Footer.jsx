@@ -75,6 +75,7 @@ const Footer = () => {
               <img className='socialw' src={linkedinw} alt='linkedin' />
             </a>
           </div>
+          <h2 className='footer-text copyright-mb'>©2021 IEEE SB GEC Palakkad</h2>
         </div>
       </div>
     </div>

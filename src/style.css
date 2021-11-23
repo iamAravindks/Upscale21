@@ -140,7 +140,7 @@
 .socialw {
   width: 45px;
   height: 45px;
-  margin-top: 5rem;
+  margin-top: 4rem;
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
@@ -151,6 +151,10 @@
 
 .copyright {
   margin-bottom: 4rem;
+}
+
+.copyright-mb {
+  display: none;
 }
 
 @media only screen and (max-width: 769px) {
@@ -173,48 +177,72 @@
       height: 25px;
     }
 .nav-link ,.register-btn{
+  .logo-container{
+      min-width: 200px;
+      min-height: 20px;
+  }
+  .logo{
+      position: absolute;
+      top: -100px;
+      width: 120px;
+      height: 295px;
+  }
+  .sponsor-img{
+      width: 80px;
+      height: 20px;
+  }
+  .nav-link ,.register-btn{
     margin: 0;
-}
-.info-container{
-  padding: 1rem;
-  position: relative;
-  overflow-x: hidden;
+  }
+  .info-container{
+    padding: 1rem;
+    position: relative;
+    overflow-x: hidden;
   
-}
-.footer{
-  flex-direction: column;
-}
-.footer >div{
- margin: auto;
- width: 200px;
- display: flex;
- flex-direction: column;
- justify-content: center;
- align-items: center;
-}
-.social-container{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  }
+  .footer{
+    flex-direction: column;
+  }
+  .footer >div{
+    margin: auto;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .social-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-.footer-logo {
-  margin-left: 5rem;
-  margin-bottom: 4rem;
-}
+  .footer-logo {
+    margin-left: 5rem;
+    margin-bottom: 4rem;
+  }
 
-.footer-text{
-  font-size: 0.9rem !important;
-  align-self: center !important;
-}
+  .footer-text{
+    font-size: 0.9rem !important;
+    align-self: center !important;
+  }
 
-.footer-head {
-  margin-top: 2rem;
-  margin-bottom: 0rem;
-}
+  .footer-head {
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+  }
 
-.socialw {
-  margin-top: 2rem;
-}
+  .socialw {
+    margin-top: 2rem;
+  }
 
+  .copyright {
+    display: none;
+  }
+
+  .copyright-mb{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline;
+  }
 }
