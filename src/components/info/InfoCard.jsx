@@ -1,9 +1,7 @@
 import React from "react";
 import './infoCard.css'
 const InfoCard = ({
-  qstSrc,
   alt,
-  contentSrc,
   imgSrc,
   flexDirection,
   justifyContent,
@@ -14,8 +12,10 @@ const InfoCard = ({
   return (
     <div className='info-card' style={{ flexDirection }}>
       <div className='info-heading' style={{ justifyContent }}>
-        <img src={qstSrc} className='info-head-img' alt={alt} />
-        <img src={contentSrc} className='info-content-img' alt={alt} />
+          <h3 className='info-head-qst'>
+            {question} <span className='info-head-bold'>{boldText}</span>
+          </h3>
+        <div className='info-head-content'>{description}</div>
       </div>
       <div className='info-body'>
         <img src={imgSrc} className='info-img' alt={alt} />
