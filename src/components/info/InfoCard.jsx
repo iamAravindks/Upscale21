@@ -7,9 +7,12 @@ const InfoCard = ({
   imgSrc,
   flexDirection,
   justifyContent,
+  question,
+  boldText,
+  description,
 }) => {
   return (
-      <div className='info-card' style={{ flexDirection }} >
+    <div className='info-card' style={{ flexDirection }}>
       <div className='info-heading' style={{ justifyContent }}>
         <img src={qstSrc} className='info-head-img' alt={alt} />
         <img src={contentSrc} className='info-content-img' alt={alt} />

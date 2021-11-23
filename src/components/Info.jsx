@@ -13,6 +13,9 @@ const Info = ({infoRef}) => {
             imgSrc={card.imgSrc}
             flexDirection={card.flexDirection}
             justifyContent={card.justifyContent}
+            question={card.question}
+            boldText={card.boldText}
+            description={card.description}
           />
         ))}
       </div>
