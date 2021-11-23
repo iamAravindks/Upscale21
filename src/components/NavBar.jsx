@@ -1,6 +1,12 @@
 
 
-const NavBar = ({ scrollToRef, headerRef, infoRef }) => {
+const NavBar = ({
+  scrollToRef,
+  headerRef,
+  infoRef,
+  speakerRef,
+  scheduleRef,
+}) => {
   return (
     <nav className='navbar navbar-expand-lg navbar navbar-dark bg-dark '>
       <div className='container-fluid'>
@@ -32,10 +38,17 @@ const NavBar = ({ scrollToRef, headerRef, infoRef }) => {
               </div>
             </li>
             <li className='nav-item'>
-              <div className='nav-link'>Schedule</div>
+              <div
+                className='nav-link'
+                onClick={() => scrollToRef(scheduleRef)}
+              >
+                Schedule
+              </div>
             </li>
             <li className='nav-item'>
-              <div className='nav-link'>Speakers</div>
+              <div className='nav-link' onClick={() => scrollToRef(speakerRef)}>
+                Speakers
+              </div>
             </li>
             <li className='nav-item'>
               <button type='button' className='btn btn-light register-btn'>

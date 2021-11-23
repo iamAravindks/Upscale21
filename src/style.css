@@ -168,6 +168,10 @@
         width: 80px;
         height: 20px;
     }
+    .pie{
+      width: 82px;
+      height: 25px;
+    }
 .nav-link ,.register-btn{
     margin: 0;
 }

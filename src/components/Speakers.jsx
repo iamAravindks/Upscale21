@@ -2,9 +2,9 @@ import { speakers } from "./speaker/Data"
 import SpeakerCard from "./speaker/SpeakerCard"
 import './speaker/speaker.css'
 import speakerImg from '../assets/Speakers.svg'
-const Speakers = () => {
-    return (
-      <div className="speaker-section">
+const Speakers = ({ speakerRef }) => {
+  return (
+    <div className='speaker-section' ref={speakerRef}>
       <div>
         <div className='speaker-heading'>
           <img src={speakerImg} alt='speaker' />
@@ -19,9 +19,9 @@ const Speakers = () => {
             />
           ))}
         </div>
-        </div>
-        </div>
-    );
-}
+      </div>
+    </div>
+  );
+};
 
 export default Speakers

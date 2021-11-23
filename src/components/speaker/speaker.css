@@ -3,6 +3,8 @@
 }
 .speaker-heading{
     margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
 }
 
 .speaker-container{

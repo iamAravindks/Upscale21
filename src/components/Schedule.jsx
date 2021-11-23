@@ -1,11 +1,23 @@
-
-
-const Schedule = () => {
-    return (
-        <div>
-            
-        </div>
-    )
-}
+import { schedules } from "./schedule/Data"
+import ScheduleCard from "./schedule/ScheduleCard"
+import './schedule/scheduleCard.css'
+const Schedule = ({ scheduleRef }) => {
+  return (
+    <>
+      <h1 className='sd-main-head' ref={scheduleRef}>
+        Schedules
+      </h1>
+      <div className='sd-container'>
+        {schedules.map((schedule) => (
+          <ScheduleCard
+            id={schedule.id}
+            day={schedule.day}
+            lists={schedule.lists}
+          />
+        ))}
+      </div>
+    </>
+  );
+};
 
 export default Schedule

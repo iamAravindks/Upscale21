@@ -11,10 +11,10 @@ const Header = ({headerRef}) => {
               <img className="logo" src={upscale} alt="Upscale'21"/>
           </div>
       <div className='img-tags'>
-        <img className='sponsor-img' src={ieee} alt='IEEE' />
-        <img className='sponsor-img' src={iedc} alt='IEDC' />
-        <img className='sponsor-img' src={pie} alt='PIE' />
         <img className='sponsor-img' src={sb} alt='IEEE SB Palakkad' />
+        <img className='sponsor-img' src={iedc} alt='IEDC' />
+        <img className='sponsor-img' src={ieee} alt='IEEE' />
+        <img className='sponsor-img pie' src={pie} alt='PIE' />
         <img className='sponsor-img' src={tbi} alt='TBI GEC Palakkad' />
       </div>
     </div>
