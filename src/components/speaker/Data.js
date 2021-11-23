@@ -1,4 +1,4 @@
-import imgOne from '../../assets/sooraj.webp'
+import imgOne from '../../assets/sooraj.png'
 import imgTwo from '../../assets/Harikrishnan.jpeg'
 export const speakers = [
   {
@@ -14,7 +14,7 @@ export const speakers = [
     name: " Harikrishnan V",
     title: "Partner R Rajan Associates Chartered Accountants ",
     topic: "Legal formalities for a Startup and Funding Options ",
-    imgSrc: imgTwo,
+    imgSrc: imgOne,
     alt: "speaker",
   },
   {
@@ -22,7 +22,7 @@ export const speakers = [
     name: " Robin Kannattu Thomas",
     title: "Co founder & CEO Astrek Innovations",
     topic: "How to pitch an idea ",
-    imgSrc: imgTwo,
+    imgSrc: imgOne,
     alt: "speaker",
   },
 ];
