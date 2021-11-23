@@ -7,6 +7,7 @@ import upscale from '../assets/upscale.svg'
 const Header = ({headerRef}) => {
   return (
       <div className='container-fluid ' id="home" ref={headerRef}>
+        <div className="demo"></div>
           <div className="logo-container">
               <img className="logo" src={upscale} alt="Upscale'21"/>
           </div>
