@@ -22,7 +22,7 @@ export const speakers = [
     name: " Robin Kannattu Thomas",
     title: "Co founder & CEO Astrek Innovations",
     topic: "How to pitch an idea ",
-    imgSrc: imgOne,
+    imgSrc: imgTwo,
     alt: "speaker",
   },
 ];
