@@ -11,6 +11,7 @@ const Schedule = ({ scheduleRef }) => {
         {schedules.map((schedule) => (
           <ScheduleCard
             id={schedule.id}
+            passId={schedule.id}
             day={schedule.day}
             lists={schedule.lists}
           />

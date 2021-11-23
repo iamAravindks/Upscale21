@@ -5,10 +5,10 @@ import bgimg from '../../assets/ellpsebg.png';
 const SpeakerCard = ({ name, title, topic, imgSrc }) => {
   return (
     <div className='speaker-card'>
-      <div className="speaker-head">
-        <img src={bgimg} className="ellpsebg" alt="ha" />
-        <div className="speaker-img-contaner">
-          <img 
+      <div className='speaker-head'>
+        <img src={bgimg} className='ellpsebg' alt='ha' />
+        <div className='speaker-img-contaner'>
+          <img
             src={imgSrc}
             className='card-img-top rounded-circle speaker-img'
             alt='...'
@@ -16,16 +16,16 @@ const SpeakerCard = ({ name, title, topic, imgSrc }) => {
         </div>
       </div>
       <div className='card-body'>
-        <em><h5 className='card-title'>{name}</h5></em>
+        <em>
+          <h5 className='card-title'>{name}</h5>
+        </em>
         <p className='card-sub-title'>{title}</p>
-        
       </div>
-      <div className="speaker-card-topic">
+      <div className='speaker-card-topic'>
+       
         <p className='card-text'>{topic}</p>
       </div>
-      </div>
-      
-
-)}
+    </div>
+  );}
 
 export default SpeakerCard;

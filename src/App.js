@@ -9,13 +9,14 @@ import Schedule from './components/Schedule';
 function App()
 {
   //pass the refs to the corresponding components
-  const headerRef = useRef(null)
-  const infoRef = useRef(null)
-  const scheduleRef = useRef(null)
-  const speakerRef = useRef(null)
+  const headerRef = useRef("home")
+  const infoRef = useRef("about")
+  const scheduleRef = useRef("schedule")
+  const speakerRef = useRef("speaker")
 
   
-    const scrollToRef = (ref) => {
+  const scrollToRef = (ref) =>
+  {
       window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
     };
   return (
