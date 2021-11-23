@@ -1,96 +1,46 @@
-.speaker-section{
-    padding: 3rem 6rem;
-}
-.speaker-heading{
-    margin-bottom: 2rem;
-}
-
 .speaker-container{
     display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid #d3d3d381;
-    padding-bottom: 3rem;
+    justify-content: space-around;
     
 }
-.speaker-card{
+.card{
     background-color: #414141 !important;
-    width: 32%;
-    border: 1px solid #6a44a0;
-       padding: 1rem 0;
-       border-radius: 10px;
-       box-shadow: 0px 4px 7px #6a44a0;
 }
 
 .speaker-head{
-    width: 75%;
-    display: block;
-    margin: auto;
-    position: relative;
+      height: 400px;
     background-color: #414141 !important;
-
-
-   
-}
-.ellpsebg{
-    width: 100%;
-}
-.speaker-img-contaner{
-    position: absolute;
-    background-color: #414141;
-    top: 50%;
-    left: 50%;
-    width: 80%;
-    transform: translate(-50%,-50%);
+    background: url(../../assets/Ellipse.svg);
+    background-repeat: no-repeat;
+    width: 405px;
+    background-position-x: 28px;
+    background-position-y: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .card-body{
-    margin-top: .5rem;
+    margin-top: 31px;
     text-align: center;
     color: #fff;
 }
-.card-sub-title{
-    color:#ffffffab;
-    font-size: 80%;
-}
 .speaker-img{
     margin: auto;
-    width: 100%;
-   
+    width: 300px;
+    height: 300px;
 }
-.speaker-card-topic{
-    text-align: center;
-    color: rgb(255, 255, 255);
-    
-}
-@media only screen and (max-width: 964px) {
-    
-    .speaker-section{
-        padding: 3rem 4rem;
-    }
-   
- }
-
-
 @media only screen and (max-width: 769px) {
-    .speaker-section{
-        padding: 3rem 3rem;
+    .speaker-container{
+        flex-direction: column !important;
     }
-   .speaker-container{
-       flex-direction: column;
-   }
-   .speaker-card{
-       width: 65%;
-       margin-bottom: 1rem;
-       margin-right: auto;
-       margin-left: auto;
-       
-   }
-}
-
-@media only screen and (max-width: 512px) {
-    
-  
-   .speaker-card{
-       width: 90%;
-      
-   }
+    .speaker-img{
+        width: 200px;
+        height: 200px;
+    }
+    .speaker-head{
+        background-position-x: 82px;
+    background-position-y: 30px;
+    background-size: 214px;
+    height: 295px;
+    }
 }
