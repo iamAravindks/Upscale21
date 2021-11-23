@@ -5,8 +5,9 @@
   background-color: #414141;
 }
 
-.bg-dark {
-  background-color: transparent !important;
+.demo{
+  width: 100%;
+  height: 70px;
 }
 .nav-link ,.register-btn{
   margin: 0 15px;
@@ -16,17 +17,77 @@
   margin-top: 15px 15px;
 }
 .navbar-dark .navbar-toggler {
-    color: transparent;
+    color: #414141;
 }
+.navbar-toggler{
+  border: none;
+  margin-right: 1.5rem;
+}
+.navbar-brand{
+  height: 70px;
+  margin-left: 1.5rem;
+}
+.navbar-nav{
+  margin-left: auto;
+  width: 50%;
+  position: absolute;
+  z-index: 1000;
+  top: 4rem;
+  right: 1.5rem;
+  border: 1px solid #2c2c2c;
+  box-shadow: 3px 2px 10px #2c2c2c, -3px 2px 10px #2c2c2c;
+  border-radius: 10px;
+  text-align: center;
+  padding-bottom: 1rem;
+}
+.navbar-nav-brand{
+  width: 100%;
+  background-color: transparent;
+
+}
+.nav-img{
+  width: 66%;
+  border-bottom: 1px solid #d3d3d3;
+}
+.nav-item{
+  font-size: 85%;
+  background-color: transparent;
+}
+
 .container-fluid {
   margin-top: 1rem;
 }
-
+@media only screen and (min-width:768px) {
+  .navbar-nav-brand{
+    display: none;
+  }
+  
+  .navbar-nav{
+    padding-bottom: 0;
+    width: unset;
+    border: none;
+    box-shadow: none;
+    top: unset;
+  }
+  .icon{
+    font-size: 110%;
+  }
+  .nav-text{
+    font-size: 100%;
+  }
+}
 .img-tags,
 .logo-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
+.icon{
+  font-size: 100%;
+  vertical-align: middle;
+}
+.nav-text{
+  vertical-align: middle;
 }
 .img-tags{
     position: relative;
@@ -34,6 +95,7 @@
     flex-wrap: wrap;
 }
 .logo-container {
+
   min-width: 400px;
   min-height: 400px;
 }
@@ -176,7 +238,7 @@
       width: 82px;
       height: 25px;
     }
-.nav-link ,.register-btn{
+
   .logo-container{
       min-width: 200px;
       min-height: 20px;
