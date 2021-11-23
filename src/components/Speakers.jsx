@@ -4,7 +4,7 @@ import './speaker/speaker.css'
 import speakerImg from '../assets/Speakers.svg'
 const Speakers = () => {
     return (
-      <div className="speaker-section">
+      <div>
         <div className='speaker-heading'>
           <img src={speakerImg} alt='speaker' />
         </div>
