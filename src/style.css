@@ -12,6 +12,9 @@
 .nav-link ,.register-btn{
   margin: 0 15px;
 }
+.nav-item :hover{
+  cursor: pointer;
+}
 .navbar-collapse {
   justify-content: flex-end;
   margin-top: 15px 15px;
@@ -39,6 +42,7 @@
   border-radius: 10px;
   text-align: center;
   padding-bottom: 1rem;
+  opacity: 0.9;
 }
 .navbar-nav-brand{
   width: 100%;
