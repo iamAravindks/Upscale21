@@ -19,7 +19,8 @@ const Speakers = () => {
             />
           ))}
         </div>
-      </div>
+        </div>
+        </div>
     );
 }
 
