@@ -215,7 +215,7 @@
   margin-bottom: 4rem;
 }
 
-.copyright-mb {
+.copyright-mb ,.copyright-mb-2{
   display: none;
 }
 
@@ -281,7 +281,7 @@
 
   .footer-logo {
     margin-left: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 0rem;
   }
 
   .footer-text{
@@ -304,6 +304,10 @@
 
   .copyright-mb{
     margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: inline;
+  }
+  .copyright-mb-2{
     margin-bottom: 2rem;
     display: inline;
   }

@@ -12,6 +12,7 @@ const Footer = () => {
         <div>
           <img className='footer-logo' src={upscale} alt='Upscale-21' />
           <h2 className='footer-text copyright'>©2021 IEEE SB GEC Palakkad</h2>
+          
         </div>
         <div>
           <h2 className='footer-head'>Connect with us</h2>
@@ -76,6 +77,7 @@ const Footer = () => {
             </a>
           </div>
           <h2 className='footer-text copyright-mb'>©2021 IEEE SB GEC Palakkad</h2>
+          <h2 className='footer-text copyright-mb-2'>All Rights Reserved</h2>
         </div>
       </div>
     </div>
