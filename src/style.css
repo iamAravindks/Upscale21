@@ -67,7 +67,7 @@
 .footer {
   display: flex;
   justify-content: space-around;
-  align-items: st;
+  align-items: start;
 }
 
 .footer-head {
@@ -193,4 +193,24 @@
   align-items: center;
   justify-content: center;
 }
+
+.footer-logo {
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+}
+
+.footer-text{
+  font-size: 0.9rem !important;
+  align-self: center !important;
+}
+
+.footer-head {
+  margin-top: 2rem;
+  margin-bottom: 0rem;
+}
+
+.socialw {
+  margin-top: 2rem;
+}
+
 }

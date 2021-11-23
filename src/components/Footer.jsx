@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div className='container-fluid'>
       <div className='footer'>
-        <div className='align-baseline'>
+        <div>
           <img className='footer-logo' src={upscale} alt='Upscale-21' />
           <h2 className='footer-text copyright'>©2021 IEEE SB GEC Palakkad</h2>
         </div>
@@ -60,7 +60,8 @@ const Footer = () => {
           <h2 className='footer-head'>Get in touch</h2>
           <h2 className='footer-text'>
             Questions or feedback?
-            <br />
+          </h2>
+          <h2 className='footer-text'> 
             We'd love to hear from you
           </h2>
           <div className='social-container'>
