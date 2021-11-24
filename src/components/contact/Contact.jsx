@@ -1,10 +1,20 @@
 
 import { useForm, ValidationError } from "@formspree/react";
+import { useEffect } from "react/cjs/react.development";
 import "./contact.css"
 const Contact = ({ contactRef }) =>
 {
 
-  const [state, handleSubmit] = useForm("mjvlbkan");
+  const [state, handleSubmit] = useForm("mvolpzoq");
+
+  //@FIXME  :  the state changes multiple times 
+//   useEffect(() =>
+//   {
+//       if (state.succeeded) {
+//         alert("send");
+//       }
+//  },[state])
+
   return (
     <div className="contact-container" ref={contactRef}>
       <div className="contact-details-container">

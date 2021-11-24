@@ -14,8 +14,9 @@ export const data = [
     boldText: "Upscale?",
     description: `
     Upscale is one of the flagship events of IEEE Student Branch GEC Palakkad, mainly focused on exposing the participants to multi faceted dimensions of entrepreneurship.
-The event was officially flagged off in the year 2020, inaugurated by ....
+The event was officially flagged off in the year 2020.
 The one week long virtual startup event chisels the participants on improving the skill sets and vision required to develop as an entrepreneur efficiently, ethically and professionally.
+
     `,
   },
   {
@@ -49,3 +50,5 @@ can participate.
     `,
   },
 ];
+
+

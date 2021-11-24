@@ -27,6 +27,7 @@
   align-self: flex-start;
   margin-bottom: auto;
   margin-top: 3rem;
+  text-align: justify;
 }
 .info-img {
   width: 450px;
