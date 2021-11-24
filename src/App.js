@@ -5,6 +5,7 @@ import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
 import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
+import Contact from "./components/contact/Contact";
 
 function App()
 {
@@ -13,7 +14,7 @@ function App()
   const infoRef = useRef("about")
   const scheduleRef = useRef("schedule")
   const speakerRef = useRef("speaker")
-
+  const contactRef = useRef("contactRef")
   
   const scrollToRef = (ref) =>
   {
@@ -27,11 +28,13 @@ function App()
         infoRef={infoRef}
         scheduleRef={scheduleRef}
         speakerRef={speakerRef}
+        contactRef={contactRef}
       />
       <Header headerRef={headerRef} />
       <Info infoRef={infoRef} />
       <Schedule scheduleRef={scheduleRef} />
       <Speakers speakerRef={speakerRef} />
+      <Contact contactRef={contactRef} />
       <Footer />
     </>
   );
