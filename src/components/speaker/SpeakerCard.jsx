@@ -1,13 +1,39 @@
 import React from "react";
 
-import bgimg from '../../assets/ellpsebg.png';
+import bgimg from "../../assets/ellpsebg.png";
 
 const SpeakerCard = ({ name, title, topic, imgSrc }) => {
-  return (
-    <div className='speaker-card'>
-      <div className='speaker-head'>
-        <img src={bgimg} className='ellpsebg' alt='ha' />
-        <div className='speaker-img-contaner'>
+  console.log({ name, title, topic });
+  return name && title && topic ? (
+    <>
+      <div className='speaker-card'>
+        {" "}
+        <div className='speaker-head'>
+          <img src={bgimg} className='ellpsebg' alt='ha' />
+          <div className='speaker-img-contaner'>
+            <img
+              src={imgSrc}
+              className='card-img-top rounded-circle speaker-img'
+              alt='...'
+            />
+          </div>
+        </div>
+        <div className='card-body'>
+          <em>
+            <h5 className='card-title'>{name}</h5>
+          </em>
+          <p className='card-sub-title'>{title}</p>
+        </div>
+        <div className='speaker-card-topic'>
+          <p className='card-text'>{topic}</p>
+        </div>
+      </div>
+    </>
+  ) : (
+    <>
+      {/* coming soon will be here */}
+      <div className='speaker-card-coming-soon'>
+        <div className='speaker-img-contaner-csoon'>
           <img
             src={imgSrc}
             className='card-img-top rounded-circle speaker-img'
@@ -15,17 +41,8 @@ const SpeakerCard = ({ name, title, topic, imgSrc }) => {
           />
         </div>
       </div>
-      <div className='card-body'>
-        <em>
-          <h5 className='card-title'>{name}</h5>
-        </em>
-        <p className='card-sub-title'>{title}</p>
-      </div>
-      <div className='speaker-card-topic'>
-       
-        <p className='card-text'>{topic}</p>
-      </div>
-    </div>
-  );}
+    </>
+  );
+};
 
 export default SpeakerCard;

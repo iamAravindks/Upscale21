@@ -1,7 +1,7 @@
 import imgOne from '../../assets/sooraj.png'
 import imgTwo from '../../assets/Harikrishnan.jpeg'
 import imgThree from "../../assets/Robin.jpeg";
-
+import imgFour from '../../assets/cus.jpg'
 export const speakers = [
   {
     id: 1,
@@ -26,5 +26,17 @@ export const speakers = [
     topic: "How to pitch an idea ?",
     imgSrc: imgThree,
     alt: "speaker",
+  },
+  {
+    id: 4,
+    imgSrc: imgFour,
+  },
+  {
+    id: 5,
+    imgSrc: imgFour,
+  },
+  {
+    id: 6,
+    imgSrc: imgFour,
   },
 ];
