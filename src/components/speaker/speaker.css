@@ -9,6 +9,7 @@
 
 .speaker-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px solid #d3d3d381;
   padding-bottom: 4rem;
@@ -16,6 +17,7 @@
 .speaker-card {
   background-color: #414141 !important;
   width: 32%;
+  margin-bottom: 2rem;
   border: 1px solid #6a44a0;
   padding: 1rem 0;
   border-radius: 10px;
@@ -24,10 +26,12 @@
 .speaker-card-coming-soon {
   background-color: #414141 !important;
 display: flex;
+width: 32%;
 justify-content: center;
 align-items: center;
   border: 1px solid #6a44a0;
   padding: 1rem 0;
+  margin-bottom: 2rem;
   border-radius: 10px;
   box-shadow: 0px 4px 7px #6a44a0;
 }
@@ -85,7 +89,13 @@ margin: auto 2rem;
   }
   .speaker-card {
     width: 65%;
-    margin-bottom: 1rem;
+    
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .speaker-card-coming-soon{
+      width: 65%;
+      
     margin-right: auto;
     margin-left: auto;
   }
@@ -94,5 +104,8 @@ margin: auto 2rem;
 @media only screen and (max-width: 512px) {
   .speaker-card {
     width: 90%;
+  }
+  .speaker-card-coming-soon{
+      width: 90%;
   }
 }
