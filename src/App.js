@@ -18,8 +18,10 @@ function App()
   
   const scrollToRef = (ref) =>
   {
-      // window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
-    ref.current.scrollIntoView(true);
+
+    console.log(ref.current.offsetTop + 1000,ref.current.offsetTop)
+      window.scrollTo({ top: ref.current.offsetTop, behavior: "smooth" });
+    // ref.current.scrollIntoView(true);
     };
   return (
     <>

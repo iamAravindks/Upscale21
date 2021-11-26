@@ -3,7 +3,6 @@ import React from "react";
 import bgimg from "../../assets/ellpsebg.png";
 
 const SpeakerCard = ({ name, title, topic, imgSrc }) => {
-  console.log({ name, title, topic });
   return name && title && topic ? (
     <>
       <div className='speaker-card'>
