@@ -10,7 +10,7 @@
 .speaker-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   border-bottom: 1px solid #d3d3d381;
   padding-bottom: 4rem;
 }

@@ -32,23 +32,7 @@ The one week long virtual startup event chisels the participants on improving th
 If yes, then Upscale is the best solution! 
 Upscale helps you develop your ideas from scratch to hatch with its outstanding webinars and competitive environment guided and mentored by the top most entrepreneurs.
     `,
-  },
-  {
-    id: 2,
-    imgSrc: imgTwo,
-    alt: "who can participate",
-
-    flexDirection: "row",
-    justifyContent: "start",
-
-    question: "Who can",
-    boldText: "Participate?",
-    description: `
-    Any college students aiming to start an 
-enterprise, dreaming of entrepreneurship 
-can participate.
-    `,
-  },
+  }
 ];
 
 
