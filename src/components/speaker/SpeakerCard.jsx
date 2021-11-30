@@ -2,9 +2,11 @@ import React from "react";
 
 import bgimg from "../../assets/ellpsebg.png";
 
+
 const SpeakerCard = ({ name, title, topic, imgSrc }) => {
-  return name && title && topic ? (
-    <>
+  console.log({ name, title, topic });
+  return (
+    
       <div className='speaker-card'>
         {" "}
         <div className='speaker-head'>
@@ -27,21 +29,9 @@ const SpeakerCard = ({ name, title, topic, imgSrc }) => {
           <p className='card-text'>{topic}</p>
         </div>
       </div>
-    </>
-  ) : (
-    <>
-      {/* coming soon will be here */}
-      <div className='speaker-card-coming-soon'>
-        <div className='speaker-img-contaner-csoon'>
-          <img
-            src={imgSrc}
-            className='card-img-top rounded-circle speaker-img'
-            alt='...'
-          />
-        </div>
-      </div>
-    </>
-  );
+    
+
+  )
 };
 
 export default SpeakerCard;

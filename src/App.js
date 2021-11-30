@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import Speakers from './components/Speakers';
 import Schedule from './components/Schedule';
 import Contact from "./components/contact/Contact";
+import Register from './components/Register';
 
 function App()
 {
@@ -35,6 +36,7 @@ function App()
       />
       <Header headerRef={headerRef} />
       <Info infoRef={infoRef} />
+      <Register />
       <Schedule scheduleRef={scheduleRef} />
       <Speakers speakerRef={speakerRef} />
       <Contact contactRef={contactRef} />
